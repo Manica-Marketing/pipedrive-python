@@ -2,20 +2,20 @@ from urllib.parse import urlencode
 
 import requests
 
-from modules.pipedrive import exceptions
-from modules.pipedrive.activities import Activities
-from modules.pipedrive.deals import Deals
-from modules.pipedrive.filters import Filters
-from modules.pipedrive.leads import Leads
-from modules.pipedrive.notes import Notes
-from modules.pipedrive.organizations import Organizations
-from modules.pipedrive.persons import Persons
-from modules.pipedrive.pipelines import Pipelines
-from modules.pipedrive.products import Products
-from modules.pipedrive.recents import Recents
-from modules.pipedrive.stages import Stages
-from modules.pipedrive.users import Users
-from modules.pipedrive.webhooks import Webhooks
+from module_pipedrive.pipedrive import exceptions
+from module_pipedrive.pipedrive.activities import Activities
+from module_pipedrive.pipedrive.deals import Deals
+from module_pipedrive.pipedrive.filters import Filters
+from module_pipedrive.pipedrive.leads import Leads
+from module_pipedrive.pipedrive.notes import Notes
+from module_pipedrive.pipedrive.organizations import Organizations
+from module_pipedrive.pipedrive.persons import Persons
+from module_pipedrive.pipedrive.pipelines import Pipelines
+from module_pipedrive.pipedrive.products import Products
+from module_pipedrive.pipedrive.recents import Recents
+from module_pipedrive.pipedrive.stages import Stages
+from module_pipedrive.pipedrive.users import Users
+from module_pipedrive.pipedrive.webhooks import Webhooks
 
 
 class Client:
